@@ -54,10 +54,10 @@ public class CalculadoraTest {
     @Test
     public void testSuma() {
         System.out.println("suma");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 3.0;
+        double num2 = 2.0;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 5.0;
         double result = instance.suma(num1, num2);
         assertEquals(expResult, result, 0.0);
     }
@@ -68,10 +68,10 @@ public class CalculadoraTest {
     @Test
     public void testResta() {
         System.out.println("resta");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 7.0;
+        double num2 = 4.0;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 3.0;
         double result = instance.resta(num1, num2);
         assertEquals(expResult, result, 0.0);
     }
@@ -82,10 +82,10 @@ public class CalculadoraTest {
     @Test
     public void testMultiplication() {
         System.out.println("multiplication");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 2.0;
+        double num2 = 2.0;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 4.0;
         double result = instance.multiplication(num1, num2);
         assertEquals(expResult, result, 0.0);
     }
@@ -96,10 +96,10 @@ public class CalculadoraTest {
     @Test
     public void testDivision() {
         System.out.println("division");
-        double num1 = 0.0;
-        double num2 = 0.0;
+        double num1 = 6.0;
+        double num2 = 3.0;
         Calculadora instance = new Calculadora();
-        double expResult = 0.0;
+        double expResult = 2.0;
         double result = instance.division(num1, num2);
         assertEquals(expResult, result, 0.0);
     }
